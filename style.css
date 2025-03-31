@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  height: 100vh;
+  margin: 0;
+}
+
+body > div {
+  display: flex;
+  width: 360px;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+body > div > button {
+  width: 80px;
+  height: 80px;
+  border-radius: 7px;
+  cursor: pointer;
+  background-color: gray;
+  border: none;
+}
+
+body > div > button:hover {
+  background-color: #ff6f91;
+  scale: 1.05;
+  transition: 0.3s;
+}
+
+body > div > button:active {
+  background-color: gray;
+  scale: 1;
+  transition: 0.3s;
+}
